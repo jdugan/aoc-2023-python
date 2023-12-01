@@ -30,8 +30,8 @@ from src.day25.runner import Day25
 # ---------------------------------------------------------
 
 def test_day01():
-    assert Day01().puzzle1() == -1
-    assert Day01().puzzle2() == -2
+    assert Day01().puzzle1() == 54601
+    assert Day01().puzzle2() == 54078
 
 def test_day02():
     assert Day02().puzzle1() == -1
