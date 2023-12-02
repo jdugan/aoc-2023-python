@@ -1,3 +1,6 @@
+import re
+
+from src.day02.game     import Game
 from src.utility.reader import Reader
 
 class Day02:
@@ -9,10 +12,12 @@ class Day02:
         return 2
 
     def puzzle1(self):
-        return -1
+        ids = [g.id for g in self.__games() if g.within(12, 13, 14)]
+        return sum(ids)
 
     def puzzle2(self):
-        return -2
+        powers = [g.calculate_minimum_power() for g in self.__games()]
+        return sum(powers)
 
 
     # -----------------------------------------------------
@@ -20,4 +25,13 @@ class Day02:
     # -----------------------------------------------------
 
     def __data(_):
-        Reader().to_lines("data/day02/input.txt")
+        return Reader().to_lines("data/day02/input.txt")
+
+    def __games(self):
+        games = []
+        for line in self.__data():
+            match         = re.search(r'\AGame (\d+): (.*)\Z', line)
+            id, round_str = match.groups()
+            game          = Game(int(id), round_str)
+            games.append(game)
+        return games

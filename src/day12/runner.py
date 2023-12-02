@@ -20,4 +20,4 @@ class Day12:
     # -----------------------------------------------------
 
     def __data(_):
-        Reader().to_lines("data/day12/input.txt")
+        return Reader().to_lines("data/day12/input.txt")
