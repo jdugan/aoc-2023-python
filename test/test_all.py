@@ -54,8 +54,8 @@ def test_day06():
     assert Day06().puzzle2() == 45128024
 
 def test_day07():
-    assert Day07().puzzle1() == -1
-    assert Day07().puzzle2() == -2
+    assert Day07().puzzle1() == 251216224
+    assert Day07().puzzle2() == 250825971
 
 def test_day08():
     assert Day08().puzzle1() == -1
