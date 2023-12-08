@@ -36,7 +36,7 @@ class Day05:
         type            = None
         type_converters = []
         for line in lines[2:]:
-            match = re.search("\A(\w+)-to-(\w+) map:\Z", line)
+            match = re.search(r'\A(\w+)-to-(\w+) map:\Z', line)
             if match:
                 _, type         = match.groups()
             elif len(line) > 0:
