@@ -8,14 +8,3 @@ class Point:
         self.x     = x
         self.y     = y
         self.value = value
-
-
-    # -----------------------------------------------------
-    # Public Method
-    # -----------------------------------------------------
-
-    # def invert(self):
-    #     if self.value == "#":
-    #         self.value = "."
-    #     else:
-    #         self.value = "#"
