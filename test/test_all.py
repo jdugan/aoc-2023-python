@@ -94,8 +94,8 @@ def test_day16():
     assert Day16().puzzle2() == 7228                    # pretty slow (1500ms)
 
 def test_day17():
-    assert Day17().puzzle1() == -1
-    assert Day17().puzzle2() == -2
+    assert Day17().puzzle1() == 936                     # very slow
+    assert Day17().puzzle2() == 1157                    # very slow
 
 def test_day18():
     assert Day18().puzzle1() == -1
