@@ -1,4 +1,4 @@
 window.onload = function() {
     let el = document.querySelector(".star-count")
-    el.innerHTML = "(AoC++) 34*"
+    el.innerHTML = "(AoC++) 36*"
 }
