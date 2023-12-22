@@ -25,6 +25,8 @@ class Garden:
             points = new_points
         return len(points)
 
+    # correct but insanely slow: too sick to be more clever
+    # than this. will come back.
     def extremely_reachable_points(self, steps):
         remainder = steps % 2
         dx, dy    = self.__dimensions()

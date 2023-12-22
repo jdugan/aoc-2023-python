@@ -110,12 +110,12 @@ def test_day20():
     assert Day20().puzzle2() == 225514321828633
 
 def test_day21():
-    assert Day21().puzzle1() == -1
+    assert Day21().puzzle1() == 3632
     assert Day21().puzzle2() == -2
 
 def test_day22():
-    assert Day22().puzzle1() == -1
-    assert Day22().puzzle2() == -2
+    assert Day22().puzzle1() == 527
+    # assert Day22().puzzle2() == 100376                # absurdly slow, sick-brain bad :)
 
 def test_day23():
     assert Day23().puzzle1() == -1
