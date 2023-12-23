@@ -118,8 +118,8 @@ def test_day22():
     # assert Day22().puzzle2() == 100376                # absurdly slow, sick-brain bad :)
 
 def test_day23():
-    assert Day23().puzzle1() == -1
-    assert Day23().puzzle2() == -2
+    assert Day23().puzzle1() == 2010
+    assert Day23().puzzle2() == 6318                    # should probably write a dijkstra variant
 
 def test_day24():
     assert Day24().puzzle1() == -1
