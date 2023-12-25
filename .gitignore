@@ -1,5 +1,6 @@
 # general
 .DS_Store
+tmp/
 
 # python stuff
 __pycache__

@@ -111,7 +111,7 @@ def test_day20():
 
 def test_day21():
     assert Day21().puzzle1() == 3632
-    assert Day21().puzzle2() == -2
+    assert Day21().puzzle2() == -2                      # UNATTEMPTED
 
 def test_day22():
     assert Day22().puzzle1() == 527
@@ -119,11 +119,11 @@ def test_day22():
 
 def test_day23():
     assert Day23().puzzle1() == 2010
-    assert Day23().puzzle2() == 6318                    # should probably write a dijkstra variant
+    assert Day23().puzzle2() == 6318                    # slow, need to speed up finding paths
 
 def test_day24():
-    assert Day24().puzzle1() == -1
-    assert Day24().puzzle2() == -2
+    assert Day24().puzzle1() == 16589
+    assert Day24().puzzle2() == -2                      # UNATTEMPTED
 
 def test_day25():
     assert Day25().puzzle1() == -1
