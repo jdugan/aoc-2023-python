@@ -3,10 +3,11 @@ class Point:
     # Configuration
     # -----------------------------------------------------
 
-    def __init__(self, x, y, value):
+    def __init__(self, x, y, tile, value):
         self.id    = (y, x)
         self.x     = x
         self.y     = y
+        self.tile  = tile
         self.value = value
 
 

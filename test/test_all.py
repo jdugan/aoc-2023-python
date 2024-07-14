@@ -111,7 +111,7 @@ def test_day20():
 
 def test_day21():
     assert Day21().puzzle1() == 3632
-    assert Day21().puzzle2() == -2                      # UNATTEMPTED
+    assert Day21().puzzle2() == 600336060511101
 
 def test_day22():
     assert Day22().puzzle1() == 527

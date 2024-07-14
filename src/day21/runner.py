@@ -16,7 +16,7 @@ class Day21:
 
     def puzzle2(self):
         garden = self.__garden()
-        return garden.extremely_reachable_points(500)
+        return garden.extremely_reachable_points(26501365)
 
 
     # -----------------------------------------------------
@@ -28,8 +28,9 @@ class Day21:
 
     def __garden(self):
         points = {}
+        tile   = 0
         for y, row in enumerate(self.__data()):
-            for x, col in enumerate(row):
-                if col != "#":
-                    points[(y, x)] = Point(x, y, col)
+            for x, value in enumerate(row):
+                if value != "#":
+                    points[(y, x)] = Point(x, y, tile, value)
         return Garden(points)
