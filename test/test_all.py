@@ -123,8 +123,8 @@ def test_day23():
 
 def test_day24():
     assert Day24().puzzle1() == 16589
-    assert Day24().puzzle2() == -2                      # UNATTEMPTED
+    assert Day24().puzzle2() == -2
 
 def test_day25():
-    assert Day25().puzzle1() == -1
+    assert Day25().puzzle1() == 562912
     assert Day25().puzzle2() == -2
