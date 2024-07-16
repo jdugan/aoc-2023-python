@@ -123,7 +123,7 @@ def test_day23():
 
 def test_day24():
     assert Day24().puzzle1() == 16589
-    assert Day24().puzzle2() == -2
+    assert Day24().puzzle2() == 781390555762385
 
 def test_day25():
     assert Day25().puzzle1() == 562912
