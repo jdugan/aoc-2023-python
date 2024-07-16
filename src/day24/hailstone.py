@@ -1,4 +1,4 @@
-class Particle:
+class Hailstone:
     # -----------------------------------------------------
     # Configuration
     # -----------------------------------------------------
@@ -16,6 +16,9 @@ class Particle:
     # -----------------------------------------------------
     # Public Methods
     # -----------------------------------------------------
+
+    def to_vector(self):
+        return (self.x, self.y, self.z, self.dx, self.dy, self.dz)
 
     def xy_formula(self):
         a      = self.dy
